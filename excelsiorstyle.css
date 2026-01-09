@@ -8,9 +8,15 @@ video {
     z-index: -1;
 }
 
-header {
-    position: relative;
-    height: 400px;
+img.logo {
+    position: fixed;
+    top: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    max-width: 300px;
+    width: auto;
+    height: auto;
 }
 
 .navmenu {
@@ -24,6 +30,8 @@ header {
     border-radius: 5px;
     list-style-type: none;
     text-decoration: none;
+    position: relative;
+    top: 100px;
 }
 
 ul.navmenu a {
@@ -31,4 +39,20 @@ ul.navmenu a {
     font-weight: bold;
     font-size: 20px;
     color: #f1f1f1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: garamond, serif;
+    color: #f1f1f1;
+    height: 100px;
+    margin-top: 0;
+    list-style-type: none;
+    text-decoration: none;
+    width: 100%;
+    background-color: #00000028;
 }
