@@ -11,9 +11,10 @@ video {
 img.logo {
     display: block;
     margin: 0 auto;
-    max-width: 20%;
-    scale: 60%;
-    margin-top: -20px;
+    width: 345px;
+    height: auto;
+    margin-top: 10px;
+    
 }
 
 .navmenu {
@@ -28,7 +29,7 @@ img.logo {
     list-style-type: none;
     text-decoration: none;
     position: relative;
-    top: -50px;
+    top: -25px;
 }
 
 ul.navmenu a {
