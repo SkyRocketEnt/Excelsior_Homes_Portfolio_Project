@@ -13,6 +13,7 @@ img.logo {
     margin: 0 auto;
     max-width: 20%;
     scale: 60%;
+    margin-top: -20px;
 }
 
 .navmenu {
@@ -27,6 +28,7 @@ img.logo {
     list-style-type: none;
     text-decoration: none;
     position: relative;
+    top: -50px;
 }
 
 ul.navmenu a {
