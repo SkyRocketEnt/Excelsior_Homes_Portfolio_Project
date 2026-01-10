@@ -45,9 +45,8 @@ footer {
     bottom: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-family: garamond, serif;
-    color: #f1f1f1;
     height: 50px;
     margin-top: 0;
     list-style-type: none;
@@ -59,9 +58,22 @@ footer {
 
 footer ul.sitemap {
     display: flex;
-    gap: 10px;
-    padding: 0;
     list-style-type: none;
-    color: #f1f1f1;
     font-family: garamond, serif;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0;
+}
+
+ul.sitemap li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    color: #f1f1f1;
 }
