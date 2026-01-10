@@ -9,14 +9,9 @@ video {
 }
 
 img.logo {
-    position: fixed;
-    top: -90px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 9999;
-    max-width: 350px;
-    width: auto;
-    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
 }
 
 .navmenu {
@@ -31,7 +26,6 @@ img.logo {
     list-style-type: none;
     text-decoration: none;
     position: relative;
-    top: 130px;
 }
 
 ul.navmenu a {
